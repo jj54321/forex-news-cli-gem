@@ -1,5 +1,7 @@
-require "forex_news/version"
+require "open-uri"
+require "nokogiri"
 
-module ForexNews
-  # Your code goes here...
-end
+
+require_relative "forex_news/version"
+require_relative 'cli'
+require_relative 'event'
