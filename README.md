@@ -1,8 +1,6 @@
 # ForexNews
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/forex_news`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+ForexNews is a very simple CLI gem to scrape and organize scheduled news events in the Foreign Exchange market. The gem will download the headlines of the day and will allow you to sort the events by currency pair.
 
 ## Installation
 
@@ -22,7 +20,11 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Up initialization the gem will list the currencies that have news events scheduled for the day.
+
+Enter the currency you would like to see news events for, or enter show all to see all events scheduled for the day.
+
+When you are done looking at news events just enter exit to exit.
 
 ## Development
 
@@ -38,4 +40,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
